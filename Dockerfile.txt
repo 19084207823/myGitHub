@@ -1,0 +1,4 @@
+ROM 172.16.110.240:5000/python:3
+#RUN apt-get install -y nginx
+COPY . .
+CMD ["python","hello.py"]
